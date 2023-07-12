@@ -5,28 +5,30 @@ PFM project using Spring Boot, RDBMS, REST API, and Docker
 Account
 	Adapter
 		in
-		out
-	Domain
-		Account
-			CashAccount
-			ChequeAccount
-			JointAccountWithPartner
-			JointAccountWithBrother
-			CryptoAccount
-			InterestAccount
-			LoanAccount
-			StockAccount
-		Label	
-			CategoryLabel 
-			TagLabel
+		out				
 	Application
-		Service
-			DepositTransactionService
-			TransferTransactionService
-			WithdrawTransactionService
-			CategoryReportService
-			TagReportService
-			TransactionReportService
+		Domain
+			Model		
+				Account
+					CashAccount
+					ChequeAccount
+					JointAccountWithPartner
+					JointAccountWithBrother
+					CryptoAccount
+					InterestAccount
+					LoanAccount
+					StockAccount
+				Label	
+					CategoryLabel 
+					TagLabel
+			Service
+				DepositTransactionService
+				TransferTransactionService
+				WithdrawTransactionService
+				CategoryReportService
+				TagReportService
+				TransactionReportService	
+
 		Port
 			in
 				DepositTransactionPort
@@ -38,4 +40,5 @@ Account
 			out
 				LoadAccountPort
 				UpdateAccountStatePort
+	
 	

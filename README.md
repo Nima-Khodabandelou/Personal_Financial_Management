@@ -40,5 +40,8 @@ Account
 			out
 				LoadAccountPort
 				UpdateAccountStatePort
-	
+	Common
+		Adapter
+		Service
+		Validation
 	

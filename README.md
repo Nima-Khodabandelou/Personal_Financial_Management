@@ -4,7 +4,7 @@ PFM project using Spring Boot, RDBMS, REST API, and Docker
 ## Add Spring Boot (Java 17 + Maven) with Dependencies (H2, Web, Devtool, Spring Data JPA):  Done
 ## Define Directory Structure Based on Clean Architecture:  Done
 ## Define Initial Classes and Interfaces in Sub-directories:  Done
-## Develop Entities
+## Develop Entities: Done
 ## Develop Business Models
 ## Develop Driver Ports
 ## Develop Driven Ports

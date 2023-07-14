@@ -15,7 +15,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="Personal_Financial_Management" />
+          <factory-entry name="Personal_Financial_Management" value="ae83f12f-33f9-45ff-ae2a-f13c80db5441" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

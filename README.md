@@ -11,3 +11,5 @@ PFM project using Spring Boot, RDBMS, REST API, and Docker
 ## Develop Driver Adapters
 ## Develop Driven Adapters
 ## Add Tests
+## Add Postgres/Oracle
+## Add Docker

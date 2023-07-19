@@ -1,4 +1,1 @@
-package com.nkh1987.pfm.core.port.out;
-
-public interface UpdateAccountState {
-}
+// perform operations related to DB and persistence in port.out/adapter.out

@@ -1,9 +1,15 @@
+// Create controller class with restcontroller and requestmapping annotations
+// add get, post, delete, and put methods along with proper arguments for user input data, i.e. @requestbody, @pathvariable, var+type
+// DO NOT instantiate entity/repository objects here
+// Implement/use any interface/class in port.in/application.domain.service if needed.
+// No DB operations here!
+
 package com.nkh1987.pfm.adapter.in.web;
 
 import com.nkh1987.pfm.adapter.out.persistence.AccountEntity;
 import com.nkh1987.pfm.adapter.out.persistence.TransactionEntity;
-import com.nkh1987.pfm.core.domain.model.account.AccountRepository;
-import com.nkh1987.pfm.core.domain.model.account.TransactionRepository;
+import com.nkh1987.pfm.adapter.out.persistence.AccountRepository;
+import com.nkh1987.pfm.adapter.out.persistence.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

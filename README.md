@@ -5,7 +5,8 @@ PFM project using Spring Boot, RDBMS, REST API, and Docker
 ## Define Directory Structure Based on Clean Architecture:  Done
 ## Define Initial Classes and Interfaces in Sub-directories:  Done
 ## Develop Entities: Done
-## Develop Business Models
+## Add Categories and Tags: Done
+## Develop Business Logic
 ## Develop Driver Ports
 ## Develop Driven Ports
 ## Develop Driver Adapters
